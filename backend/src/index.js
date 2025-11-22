@@ -11,6 +11,9 @@ import dotenv from "dotenv";
 // Import module
 // for working with database.
 import connectDB from "./config/database.js";
+// Imports app module.
+import app from "./app.js";
+
 
 dotenv.config({
 
@@ -27,6 +30,7 @@ const startServer = async () => {
     // to catch errors.
     try {
         
+        console.log("MONGODB_URI:", process.env.MONGODB_URI);
         // Connects to database.
         await connectDB();
 
