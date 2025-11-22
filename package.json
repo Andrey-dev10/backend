@@ -1,10 +1,17 @@
 {
 
-  "name": "introtobackend",
+  "name": "backendproject",
+
   "version": "1.0.0",
+
   "description": "Building a backend with Node.js, express, and MongoDB",
+
   "main": "index.js",
+
+  "type": "module",
+
   "scripts": {
+
     "test": "echo \"Error: no test specified\" && exit 1"
 
   },
@@ -12,16 +19,28 @@
   "repository": {
 
     "type": "git",
+
     "url": "git+https://github.com/Andrey-dev10/backend.git"
+
   },
 
   "author": "Jhoset",
+
   "license": "ISC",
+
   "bugs": {
+
     "url": "https://github.com/Andrey-dev10/backend/issues"
-    
+
   },
 
-  "homepage": "https://github.com/Andrey-dev10/backend#readme"
+  "homepage": "https://github.com/Andrey-dev10/backend#readme",
+
+  "dependencies": {
+
+    "express": "^5.1.0"
+
+  }
 
 }
+
