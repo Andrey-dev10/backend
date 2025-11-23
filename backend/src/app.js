@@ -10,7 +10,7 @@
   // Authentication API
   // Register API
   // Loggin API
-  // Logging API
+  // Logging out API
 
   // Structure of An API
     // API's have Routes
@@ -21,6 +21,17 @@
     // Using the MVC 
       // Model - Structure of the data that we want on the website.
         // They defined schemas, vesically structures.
+      // Controller
+        // It is what handles the model with the views.
+        // It has routes(endpoints) on the API
+        // which handles request between the front-end and 
+        // the back end.
+        // IT makes sure that data goes fronm 
+        // the back end to the front end
+      // View
+        // Views are the static files.
+        // What the user will see.
+
     
 // Imports express module in order to create app.
 import express from "express";
